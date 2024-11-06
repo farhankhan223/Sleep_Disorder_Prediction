@@ -16,15 +16,15 @@ pip install numpy pandas matplotlib seaborn scikit-learn
 Analysis: Exploratory data analysis (EDA) identified key factors affecting sleep disorders: gender, occupation, and BMI. Males are more prone to Insomnia, while females experience more Sleep Apnea. Overweight and obese individuals are at a higher risk of sleep disorders.
 
 # Models Used:
-Decision Tree Classifier: Achieved 88% accuracy with an F1 score of 0.83.
+Decision Tree Classifier: Achieved 88% accuracy with an F1 score of 0.83.</br>
 Random Forest Classifier: Outperformed the Decision Tree with 89% accuracy, offering better prediction performance.
 # Steps:
-Data Preprocessing: Handled missing values, encoded categorical variables, and split the dataset into training and testing sets.
-Model Building: Used Decision Tree and Random Forest classifiers to predict sleep disorders.
+Data Preprocessing: Handled missing values, encoded categorical variables, and split the dataset into training and testing sets.</br>
+Model Building: Used Decision Tree and Random Forest classifiers to predict sleep disorders.</br>
 Evaluation: Evaluated the models using confusion matrix, classification reports, and visualizations.
 # Key Findings:
-Gender-based Differences: Females are more likely to suffer from Sleep Apnea, while males are more prone to Insomnia.
-Occupation Impact: Nurses are at a higher risk for Sleep Apnea, while Sales Representatives show a higher incidence of Insomnia.
+Gender-based Differences: Females are more likely to suffer from Sleep Apnea, while males are more prone to Insomnia.</br>
+Occupation Impact: Nurses are at a higher risk for Sleep Apnea, while Sales Representatives show a higher incidence of Insomnia.</br>
 BMI Influence: Overweight and obese individuals have a higher likelihood of experiencing sleep disorders.
 
 # Conclusion:
